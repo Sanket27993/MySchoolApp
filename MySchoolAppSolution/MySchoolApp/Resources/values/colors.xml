@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color
+         name="colorPrimary">#ffffff</color>
+  <color
+      name="colorPrimaryDark">#5c5c5c</color>
+  <color
+      name="colorAccent">#BDBDBD</color>
+
+  <color
+      name="transperent">#00000000</color>
+  <color
+        name="orange">#ed8b01</color>
+  <color
+        name="orange_dark">#b45d00</color>
+  <color
+        name="orange_light">#f6c899</color>
+  <color
+      name="orange_hover">#ed7e00</color>
+  <color
+      name="white">#ffffff</color>
+  <color
+        name="black">#000000</color>
+  <color
+       name="ivary">#fffcf0</color>
+  <color
+       name="transperent_ivary">#90fffcf0</color>
+  <color
+      name="btnColorBlue">#009CDE</color>
+  <color
+        name="btnColorBlueHover">#006eac</color>
+  <color
+        name="transperent_Blue">#d9effa</color>
+  <color
+      name="textPrimary">#333f48</color>
+  <color
+      name="text_gray">#737373</color>
+  <color
+       name="text_gray3">#303e48</color>
+  <color
+        name="text_dark">#484848</color>
+  <color
+        name="text_light_gray">#5c5c5c</color>
+  <color
+      name="transparent_white">#E6ffffff</color>
+  <color
+      name="hint_gray">#B6B6B6</color>
+
+  <color name="bg_edittext_gray">#e4e4e4</color>
+  <color name="border_edittext_gray">#dddddd</color>
+  <color
+     name="bnt_gray">#c8c9c7</color>
+  <color name="smoky_white">#f2f2f2</color>
+</resources>

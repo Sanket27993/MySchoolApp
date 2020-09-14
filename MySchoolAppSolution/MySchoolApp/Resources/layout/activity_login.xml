@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="@dimen/dim_20_dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:textSize="40sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/textPrimary"
+                android:fontFamily="@font/samantha"
+                android:text="@string/my_school"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginTop="@dimen/dim_30_dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_moderate"
+                android:text="@string/login"
+                android:textColor="@color/textPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/dim_30_dp">
+                <EditText
+                    android:id="@+id/editTextUsername"
+                    android:hint="@string/username"
+                    style="@style/EditTextStyle"
+                    android:background="@drawable/edittext_border_gray"
+                    android:fontFamily="@font/arial" />
+
+                <EditText
+                    android:layout_marginTop="@dimen/dim_20_dp"
+                    android:id="@+id/editTextPassword"
+                    android:hint="@string/password"
+                    style="@style/EditTextStyle"
+                    android:inputType="textPassword"
+                    android:background="@drawable/edittext_border_gray"
+                    android:fontFamily="@font/arial" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/dim_20_dp">
+                <Button
+                    android:id="@+id/buttonLogin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/login"
+                    android:padding="0dp"
+                    android:textAllCaps="true"
+                    android:theme="@style/PrimaryButton"
+                    android:fontFamily="@font/raleway_bold"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView >
+</LinearLayout>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <integer name="thin">100</integer>
+  <integer name="extra_light">200</integer>
+  <integer name="light">300</integer>
+  <integer name="normal">400</integer>
+  <integer name="medium">500</integer>
+  <integer name="semi_bold">600</integer>
+  <integer name="bold">700</integer>
+  <integer name="extra_bold">800</integer>
+  <integer name="black">900</integer>
+
+
+  
+  <integer name="max_zipcode">6</integer>
+  <integer name="max_dob">10</integer>
+  <integer name="max_email">50</integer>
+  <integer name="max_password">40</integer>
+  <integer name="max_phone_no">10</integer>
+  <integer name="max_format_phone_no">14</integer>
+  <integer name="max_name">40</integer>
+
+  <integer name="max_address1">50</integer>
+  <integer name="max_address2">50</integer>
+ 
+   <integer name="max_city">35</integer>
+  <integer name="max_contactus_mesage">500</integer>
+
+
+
+
+</resources>
